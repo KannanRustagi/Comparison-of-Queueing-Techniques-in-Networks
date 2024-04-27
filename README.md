@@ -1,7 +1,7 @@
-## Topic- Comparing Different Scheduling Algorithms for Packet transmission through a crossbar switch
+# Topic- Comparing Different Scheduling Algorithms for Packet transmission through a crossbar switch
 You can find detailed description of the problem statement for this project in the pdf file "problem statement".<br>
 <br>
-Input Format-<br>
+## Input Format
 Inputs to the program,i.e, the simulation parameters will be taken as command line arguments-
 1. N- Number of switch input and output ports
 2. B- Buffer size
@@ -13,9 +13,7 @@ Inputs to the program,i.e, the simulation parameters will be taken as command li
 <br>
 Default values to the above parameters(as instructed in the problem statement) have been initialized in the program gloablly in the start itself.<br>
 
-=====================================================================================================================================================
-
-Execution-<br>
+## Execution-<br>
 Extract the zip file and open the terminal, go to the location where you have extracted the zip. The code should be compiled and run on a system in which a C++ compiler is installed.<br>
 
 To compile the program-<br>
@@ -35,9 +33,7 @@ Average PD-average packet delay<br>
 Std Dev of PD-Standard deviation of packet delay<br>
 Avg link utilisation- Average link utilisation<br>
 
-=====================================================================================================================================================
-
-Explanation-<br>
+## Explanation-<br>
 The code contains the following major structures and functions-<br>
 1. Packet structure- defining the parameters required to define a packet
 2. generateTraffic function- will generate packets per slot and store them in a multiset sorted by arrival times
